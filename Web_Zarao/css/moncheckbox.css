@@ -1,0 +1,15 @@
+﻿.moncheckbox
+{
+    width:20px;
+    height:20px;
+    border:solid #9b9b9b 1px;
+    border-radius:2px;
+    cursor:pointer;
+    line-height:16px;
+    text-align:center;
+    }
+.moncheckbox i
+{
+    font-size:18px;
+    font-weight:bolder;
+    }

@@ -1,0 +1,323 @@
+﻿
+
+/*#musique #menu :nth-child(5) .bt-lien
+{
+    background-color:#2baf2b;
+}
+#musique  #menu :nth-child(5) .bt-img
+{
+    color:White;
+}
+#musique #menu :nth-child(5) .sld-menu
+{
+    background-color:#2baf2b;
+}*/
+
+#musique #table-musique{
+    /*margin:0 auto 0 20px;*/
+    position:relative;
+    width:100%;
+    height:calc(100% - 215px);
+    padding-left:10px;
+    padding-right:10px;
+    /*background-color: rgb(162, 255, 212);*/
+}
+/*****En tête*****/
+#musique #table-musique #en-tete ol,ul{
+    width:100%;
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    border-radius: 5px;
+}
+#musique #table-musique #en-tete ol {
+    display:inline-block;
+    line-height: 44px;
+    white-space: nowrap;
+    line-height: 44px;
+}
+#musique #table-musique #en-tete ol li:nth-child(1){
+    float:left;
+    width:36px;
+    height:44px;
+   text-align: center;
+   /* background-color: rgb(0, 255, 42);*/
+}
+#musique #table-musique #en-tete ol li:nth-child(1) label{
+    position: relative;
+    top:10px;
+    left:8px;
+}
+
+#musique #table-musique #en-tete ol li:nth-child(2){
+    float:left;
+    width:50%;
+   /* background-color: red;*/
+}
+#musique #table-musique #en-tete ol li:nth-child(3){
+    float:left;
+    width:14%;
+   /* height: 44px;*/
+    text-align: center;
+  /*  background-color: rgb(76, 0, 255);*/
+}
+#musique #table-musique #en-tete ol li:nth-child(3) div{
+    width:100%;
+    height: 44px;
+}
+#musique #table-musique #en-tete ol li:nth-child(4){
+    float:left;
+    width:10%;
+    text-align: center;
+   /* background-color: green;*/
+}
+#musique #table-musique #en-tete ol li:nth-child(5){
+    float:left;
+    width:6%;
+    text-align: center;
+   /* background-color: blue;*/
+}
+#musique #table-musique #en-tete ol li:nth-child(6){
+    float:left;
+    width:7%;
+   text-align: center;
+   /* background-color: red;*/
+}
+#musique #table-musique #en-tete ol li:nth-child(7){
+    float:right;
+    width:7%;
+   text-align: center;
+   /* background-color: rgb(145, 243, 159);*/
+}
+#musique #table-musique #en-tete ol li span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    cursor: default;
+}
+/*******************************************/
+/*****corps*****/
+
+#musique #table-musique #liste-musique{
+   width:100%;
+    height:calc(100% - 44px);
+  /*  background-color: red;*/
+    position:relative;
+    overflow:auto;
+}
+
+#musique #table-musique #liste-musique ul{
+    width:100%;
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #fafafa;
+}
+#musique #table-musique #liste-musique ul li{
+    display:inline-block;
+    position: relative;
+    line-height: 36px;
+   /* white-space: nowrap;*/
+}
+#musique #table-musique #liste-musique ul li:nth-child(1){
+    float:left;
+    width:36px;
+    height:36px;
+    text-align: center;
+   /* background-color: rgb(0, 255, 42);*/
+}
+#musique #table-musique #liste-musique ul li:nth-child(1) label{
+    position: relative;
+    top:8px;
+    left:8px;
+}
+#musique #table-musique #liste-musique ul li:nth-child(2){
+    float:left;
+    width:50%;
+    overflow:hidden
+  /*  background-color: red;*/
+}
+#musique #table-musique #liste-musique ul li:nth-child(3){
+    float:left;
+    width:14%;
+    text-align: center;
+   /* background-color: rgb(76, 0, 255);*/
+}
+#musique #table-musique #liste-musique ul li:nth-child(3) div{
+    width:100%;
+    height: 36px;
+    visibility:hidden;
+     ;
+}
+#musique #table-musique #liste-musique ul li:nth-child(3) div i{/* Bouton controle*/
+    font-size:25px;
+    color:#707070;
+    cursor:pointer;
+}
+#musique #table-musique #liste-musique ul li:nth-child(3) div i:hover{/* Bouton controle*/
+    cursor:pointer;
+    color:#9b9b9b;
+}
+#musique #table-musique #liste-musique ul li:nth-child(3) div i:active{/* Bouton controle*/
+    cursor:pointer;
+    color:#2baf2b;
+}
+#musique #table-musique #liste-musique ul:hover  li:nth-child(3) div{
+    visibility:visible;
+}
+#musique #table-musique #liste-musique ul li:nth-child(4){
+    float:left;
+    width:10%;
+    text-align: center;
+    overflow:hidden;
+   /* background-color: green;*/
+}
+#musique #table-musique #liste-musique ul li:nth-child(5){
+    float:left;
+    width:6%;
+    text-align: center;
+     overflow:hidden;
+    /*background-color: blue;*/
+}
+#musique #table-musique #liste-musique ul li:nth-child(6){
+    float:left;
+    width:7%;
+    text-align: center;
+     overflow:hidden;
+  /* background-color: red;*/
+}
+#musique #table-musique #liste-musique ul li:nth-child(7){
+    float:right;
+    width:7%;
+    text-align: center;
+     overflow:hidden;
+   /* background-color: rgb(145, 243, 159);*/
+}
+#musique #table-musique #liste-musique ul li span{
+    height: 36px;
+    line-height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666;
+    cursor: default;
+}
+
+#musique #table-musique #liste-musique ul:nth-child(2n+1){
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+#musique #table-musique #liste-musique ul:hover{
+    border: 1px solid #ccc;
+}
+
+#musique #table-musique #liste-musique ul:selected{
+    background: #fffae5;
+    border: 1px solid #faf0c8;
+}
+
+#musique #controle-musique
+ {
+     width:calc(100% - 60px);
+     height:100px;
+    /* background-color:Red;*/
+     position:fixed;
+     bottom:0;
+      box-shadow: 10px 10px 10px 0px grey;
+      border-top: 2px #dadee2 solid;
+      display:inline-block;
+    }
+#musique #track
+{
+    width:100%;
+    height:calc(100% - 40px);
+    background-color:#474747;
+}
+#musique #track i
+{
+    position:relative;
+    top:10px;
+    left:25px;
+    border:2px solid white;
+    color:white;
+    border-radius:100px;
+    font-size:25px;    
+} 
+#musique   #track #title-track
+{
+    position:relative;
+    left:40px;
+    top:-5px;
+    color:White;
+    font-size:22px;
+    font-family:Arial;
+    /* font-weight:bold;*/
+    line-height:1;
+}  
+#musique   #track #artiste-track
+{
+    position:relative;
+    top:-2px;
+    left:72px;
+    color:White;
+    font-family:Arial;
+    font-size:12px;
+}  
+#musique  #control-panel
+{
+    display:flex;
+}
+#musique #prev-next
+{
+    width:100px;
+    height:40px;
+    background-color:Red;    
+    position:relative;
+    background-color:#474747;
+    text-align:center;
+}       
+#musique #prev-next i
+{
+    font-size:30px;
+    color:White;
+    position:relative;
+    bottom:3px;
+}
+#musique #prev-next i:first-child
+{
+    position:relative;
+   /* left:-5px;*/
+}    
+#musique #prev-next i:last-child
+{
+    position:relative;
+    right:-10px;
+}     
+#musique #prev-next i:hover
+{
+    color:#48a0f7;
+    cursor:default;
+}
+    
+#musique #audio
+{
+    width:calc(100% - 100px) ;
+    height:40px;
+    float:right;
+}
+#musique audio
+{
+ width:100%;
+ position:relative;
+/*background-color:rgba(255,0,0,1);*/
+}  
+#musique #track img
+{
+    float:right;
+    margin-top:-20px;
+    margin-right:20px;
+    }
+           

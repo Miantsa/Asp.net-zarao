@@ -1,0 +1,230 @@
+﻿html,body
+{
+    height:100%;
+    margin:0;
+    padding:0;
+    
+}
+body
+{
+    overflow:hidden;
+}
+#form1
+{
+    width:100%;
+    height:100%;
+}
+#content-page
+{
+   /*background-color:Red;*/
+    width:calc(100% - 60px);
+    height:100%;
+    position:absolute;
+    left:60px;
+    top:0;
+   /* z-index:-1;*/
+    margin:0;
+    padding:0;
+    }
+#content-page #ligne
+{   
+    position:absolute;
+    top:46px;
+    background-color:#bcbcbc;
+    width:100%;
+     height:1px;
+     border:none;
+  }
+ #content-page .ligne
+{  
+    background-color:#bcbcbc;
+    width:100%;
+    height:1px;
+    border:none;
+    margin-top:40px;
+    margin-bottom:0;
+  }
+ 
+ #info
+{
+    float:right;
+    margin:12px;
+     margin-right:15px;
+ }
+#user-panel
+{
+    position:absolute;
+    right:0;
+    top:0;
+    width:50%;
+    height:54px;
+    z-index:10;
+     /*  background-color:Blue;*/
+}
+#Content2
+{
+    width:100%;
+    height:100px;
+    background-color:blue;
+    z-index:1000;
+}
+#ContentPlaceHolder1
+{
+    width:100%;
+    height:100px;
+    background-color:blue;
+    z-index:100;
+}
+               
+.btn-tete
+{
+    margin-left:10px;
+}      
+.tete
+{
+    margin-top:7px;
+} 
+.titre-contenu
+{
+   /* width:auto;*/
+  /*  max-width:200px;*/
+    background-color:#e4e4e4;
+    color:#5b5b5b;
+    text-align:center;
+    font-weight:500;
+    border-radius:5px;
+    padding:10px;
+    position:relative;
+    top:25px;
+}      
+    
+
+.scroll-milay1 , .scroll-milay2 , .scroll-milay3 , .scroll-milay4 , .scroll-milay5 , .scroll-milay6 ,.scroll-milay7,.fancytree-container
+{
+    position:relative;
+    overflow:auto;
+}   
+
+
+#default, #image , #video, #musique , #document , #chat , #logiciel , #dossier{
+    width:100%;
+    height:100%;
+    position:absolute;
+    /*background-color: red;*/
+}
+#default{
+    display:block;
+    transition-duration: 1s;
+}
+#image{
+    display:none;
+}
+#video{
+    display:none;
+}
+#musique{
+    display:none;
+}
+#document{
+    display:none;
+}
+#chat{
+    display:none;
+}
+#logiciel{
+    display:none;
+}
+#dossier{
+    display:none;
+}
+#page-loader{
+    position: absolute;
+    background-color: white;
+    display: block;
+    width:100%;
+    height:100%;
+    z-index:100;
+    text-align: center;
+}
+#page-loader img{
+    margin:16% auto;
+    width:200px;
+
+}
+#login
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.7);
+    display:none;
+     Z-index:1000;
+   
+    }
+#inscription
+{
+    width:450px;
+    height:auto;
+    background-color:White;
+    margin: 15% auto;
+      border-radius:3px;
+      text-align:center;
+    }
+#inscription #titre
+{
+    font-size:32px;
+    font-weight:bold;
+   /* color:Green;*/
+    margin-bottom:-5px;
+    cursor:default;
+    }
+#inscription #tsipika
+{
+    border:none;
+    background-color:Gray;
+    width:85%;
+    height:1px;
+    }
+#inscription #pseudo,#avatar
+{
+    width:85%;
+    }
+
+#inscription .btn
+{
+    width:80%;
+    margin-bottom:15px;
+    background-color:#ba62c6;
+    }
+#progress
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align:center;
+    background-color:rgba(0,0,0,0.8);
+    Z-index:1000;
+    display:none;
+    }
+#progress img
+{
+    margin:1% auto;
+    width:150px;
+    opacity:0.8;
+    }
+#progress #nomFichier
+{
+    color:White;
+    font-family:Cursive;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:15%;
+    }
+#progress #pourcentage
+{
+    color:White;
+    font-family:Cursive;
+    font-size:22px;
+    font-weight:bold;
+    margin:-8% auto;
+    }

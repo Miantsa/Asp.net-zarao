@@ -1,0 +1,94 @@
+﻿
+/*#video #menu :nth-child(4) .bt-lien
+        {
+            background-color:#2baf2b;
+            }
+        #menu :nth-child(4) .bt-img
+        {
+            color:White;
+            }
+        #menu :nth-child(4) .sld-menu
+        {
+            background-color:#2baf2b;
+            }*/
+#video #en-tete
+{
+    width:100%;
+    height:40px;
+    background-color:#eee;
+    }      
+    
+#video #en-tete label
+{
+    position: relative;
+    top:10px;
+    left:20px;
+    }    
+#video #en-tete span
+{
+    margin-left:15px;
+    color:#888888;
+    font-weight: bold;
+    font-size: 14px;
+    cursor:default;
+   position:relative;
+    }    
+#video #boite-video
+{
+    margin:auto;
+   /* background-color:Red;*/
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    height:calc(100% - 155px);
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+   align-content:flex-start;
+    flex-direction:row;
+    flex-wrap:wrap;
+   position:relative;
+    }    
+#video .video-div
+{
+    display:flex;
+    flex-basis:auto;
+    align-self:auto;
+    width:200px;
+    height:180px;
+    margin:2px;
+   /*background-color:green;*/
+    position:relative;
+    display: block;
+    float: left;
+    overflow:hidden;
+   /* padding-top:30px;*/
+    /*padding-bottom:20px;*/
+    }     
+#video .video-div video
+{
+   /* background-color:Blue;*/
+    width:100%;
+    height:150px;
+    position:relative;
+    }       
+#video .video-div .controle
+{
+    position:relative;
+    width:100%;
+    height:30px;
+    background-color:rgba(0,0,0,0.6);
+       text-align:center;
+    }     
+#video .video-div .controle i
+{
+    font-size:20px;
+    margin-left:10px;
+    margin-right:10px;
+    color:White;
+    }  
+#video .video-div .controle i:hover
+{
+    color:#ba62c6;
+    cursor:pointer;
+    }                

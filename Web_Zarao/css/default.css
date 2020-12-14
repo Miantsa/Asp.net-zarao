@@ -1,0 +1,110 @@
+﻿
+/*#menu :nth-child(2) .bt-lien
+   {
+    background-color:#2baf2b;
+ }
+  #menu :nth-child(2) .bt-img
+ {
+    color:White;
+ }
+ #menu :nth-child(2) .sld-menu
+{
+     background-color:#2baf2b;
+}*/
+
+#serveur
+{
+     position:absolute;
+     top:160px;
+     left:250px;
+    }
+#nom-pc
+{
+    color:#444444;
+    font-size:24px;
+    font-weight:500;
+    margin-right:10px;
+}
+#test
+{
+    color:Red;
+    font-family:24px;
+    }
+#sys-pc
+{
+       color:#888888; 
+ }
+#img_ordi
+{
+    width:480px;
+    margin-top:210px;
+    margin-left:40px;
+   z-index:-1000;
+    }
+    #table
+    {
+       width:40%;
+       position:absolute;
+       top:240px;
+       left:400px;
+      /* z-index:-1;*/
+     }
+ #table td
+ {
+/*background-color:Red;*/
+ height:150px;
+}
+#table tr td .b1
+{
+    background-color:#f44336;/*red*/
+    }
+#table tr td .b2
+{
+    background-color:#03a9f4;/*light-blue*/
+    }
+#table tr td .b3
+{
+    background-color:#ff9800;/*orange*/
+    }
+#table tr td .b4
+{
+    background-color:#00c853;/*green accent-4*/
+    }
+#table tr td .b5
+{
+    background-color:#fdd835;/*yellow darken-1*/
+    }   /* #ffff00  #8583fd*/
+#table tr td .b6
+{
+    background-color:#e91e63;/*pink*/
+    }
+#table tr td .b7
+{
+    background-color:#9c27b0;/*purple*/
+    }      
+#table tr td .material-icons
+{
+ font-size:50px;
+ line-height: 2.0;
+ }  
+#table tr td .num
+{
+    color:#888888;
+    font-size:15px;
+    }              
+.btn-pulse
+{
+    width:100px;
+    height:100px;
+    }
+    
+.btn-pulse:hover
+{
+    opacity:0.7;
+    }  
+    
+.tooltipped
+{
+    position:relative;
+    }
+   

@@ -1,0 +1,177 @@
+﻿
+/*#image #menu :nth-child(3) .bt-lien
+        {
+            background-color:#2baf2b;
+            }
+        #menu :nth-child(3) .bt-img
+        {
+            color:White;
+            }
+        #menu :nth-child(3) .sld-menu
+        {
+            background-color:#2baf2b;
+            }*/
+#image #en-tete
+{
+    width:100%;
+    height:40px;
+    background-color:#eee;
+    }      
+    
+#image #en-tete label
+{
+    position: relative;
+    top:10px;
+    left:20px;
+    }    
+#image #en-tete span
+{
+    margin-left:15px;
+    color:#888888;
+    font-weight: bold;
+    font-size: 14px;
+    cursor:default;
+   position:relative;
+    }    
+#image #boite-image
+{
+    margin:auto;
+   /* background-color:Red;*/
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    height:calc(100% - 155px);
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+     align-content:flex-start;
+    flex-direction:row;
+    flex-wrap:wrap;
+    position:relative;
+    }    
+#image .image-div
+{
+    display:flex;
+    flex-basis:auto;
+    align-self:auto;
+    height:180px;
+    margin:2px;
+   /* background-color:Blue;*/
+    position:relative;
+    display: block;
+    float: left;
+    overflow:hidden;
+    }   
+   
+#image .image
+{
+    transition-duration:500ms;
+    display:block;
+    position:relative;
+    height:180px;
+}
+#image .image:hover
+{
+    cursor:zoom-in;
+    transform:scale(1.1);
+    transition-duration:500ms;
+
+    }
+#image .image-div:hover .controle
+{
+    display:block;
+    }
+#image .image-div:hover .choix
+{
+    display:block;
+    }
+#image .image-div .choix
+{
+   position:absolute;
+   top:8px;
+   left:8px;
+   background-color:rgba(0,0,0,0.2);
+   width:20px;
+   height:20px;
+   text-align:center;
+   line-height:20px;
+   border-radius:5px;
+    }   
+#image .image-div .choix
+{
+ /* display:none;*/
+    }  
+#image .image-div .choix:hover i
+{
+    color:White;
+ /* color:#ba62c6;*/
+  cursor:pointer;
+    } 
+#image .image-div .choix i
+{
+    font-size:15px;
+    color:rgba(255,255,255,0.5);
+    
+    
+    }
+#image .image-div .controle
+{
+    position:absolute;
+    width:100%;
+    height:35px;
+    background-color:rgba(0,0,0,0.5);
+    bottom:0;
+    display:none;
+    text-align:center;
+    }  
+#image .image-div .controle i
+{
+    font-size:28px;
+    color:White;
+    line-height:30px;
+    }      
+#image .image-div .controle i:hover
+{
+    color:#ba62c6;
+    cursor:pointer;
+    }                   
+#image #modal-image
+{
+    width:calc(100% + 60px);
+    height:100%;
+    position:absolute;
+    top:0;
+    left:-60px;
+    background-color:#292929;
+    z-index:200000000000;
+   /* visibility:hidden;/**A suivre*/
+    display:none;
+    }   
+#image #modal-image:hover
+{
+    cursor:zoom-out;
+    }    
+#image #modal-image center{
+   /* height:calc(100% - 200px);*/
+   height: 100%;
+    width:100%;
+   /* background-color: red;*/
+    text-align: center;
+}
+#image #modal-image img
+{
+    margin:5% auto;
+  height:80%;
+max-width:90%;
+    }     
+.ggg:hover{
+   /* transition-duration:500ms;*/
+   /** transform:scale(1.1)*/
+    height:200px;
+}   
+#image .check
+{
+    display:block;
+    color:white;
+    background-color:#ba62c6;
+    }

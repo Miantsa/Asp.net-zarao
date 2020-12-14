@@ -1,0 +1,127 @@
+﻿
+/*#chat #menu :nth-child(7) .bt-lien
+{
+    background-color:#2baf2b;
+}
+#chat  #menu :nth-child(7) .bt-img
+{
+    color:White;
+}
+#chat #menu :nth-child(7) .sld-menu
+{
+    background-color:#2baf2b;
+}*/
+#chat #boite1
+{
+    position:relative;
+    width:calc(100% - 16px);
+    height:calc(100% - 165px);
+   /* background-color:black;*/
+    top:60px;
+    margin:auto;
+    overflow-x:hidden;
+}       
+    
+#chat  #boite1 ul
+{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+   /* line-height:1;*/
+  display:grid;
+}
+#chat #boite1 ul li{
+  
+}
+#chat #boite1 .boite-message
+{
+    margin:1px;
+    width:100%;
+    min-height:60px;
+    height:auto;
+  /*  background-color:Gray;*/
+    display:inline-block;
+}    
+#chat #boite1 .boite-message .circle
+{
+    width:40px;
+    margin:10px;
+}  
+#chat #boite1 .boite-message  .autre
+{
+    margin-top:20px;
+    float:left;
+}     
+#chat #boite1 .boite-message  .moi
+{
+    float:right;
+}  
+#chat #boite1 .boite-message .msg-autre
+{
+    background-color:#a3ddfd;
+    margin-top:20px;
+    margin-bottom:10px;
+    padding:8px;
+    border-radius:10px;
+    float:left;
+    color:#969696;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+}
+#chat #boite1 .boite-message .msg-moi
+{
+    background-color:#e4e4e4;
+    margin-top:10px;
+    padding:8px;
+    border-radius:10px;
+    float:right;
+    color:#969696;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+}
+        
+#chat .nom-autre
+{
+    position:absolute;
+    left:70px;
+    font-weight:bold;
+    font-family:Cursive;
+    color:#666;
+    margin-bottom: 10px;
+   /* float:left;*/
+}            
+#chat #boite2
+{
+    width:100%;
+    height:100px;
+    position:fixed;
+    background-color:#474747;
+    bottom:0px;
+    border-top: 2px #dadee2 solid;
+}      
+#chat  #input-message
+{
+    margin-top:15px;
+    margin-left:15px;
+    width:calc(100% - 170px);
+    float:left;
+}  
+#chat  #input-message textarea
+{
+    border:1px solid #dadee2;
+    border-radius:5px;
+    resize:none;
+    background-color:white;
+    height:70px;
+}
+#chat #btn-envoie
+{
+    float:right;
+    margin-right:80px;
+    margin-top:22px;
+}      
+    
+            

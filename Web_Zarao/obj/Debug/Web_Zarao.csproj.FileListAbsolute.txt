@@ -1,0 +1,19 @@
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Web_Zarao\bin\Web_Zarao.dll
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Web_Zarao\bin\Web_Zarao.pdb
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Web_Zarao\obj\Debug\Web_Zarao.dll
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Web_Zarao\obj\Debug\Web_Zarao.pdb
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Web_Zarao\obj\Debug\Web_Zarao.csprojResolveAssemblyReference.cache
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Web_Zarao\bin\Desktop_zarao.exe
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Web_Zarao\bin\CassiniDev4-lib.dll
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Web_Zarao\bin\Desktop_zarao.pdb
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Web_Zarao\bin\Newtonsoft.Json.dll
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Web_Zarao\bin\System.Data.SQLite.dll
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Web_Zarao\bin\taglib-sharp.dll
+D:\Mini projet\Zarao\Web_Zarao\bin\Web_Zarao.dll
+D:\Mini projet\Zarao\Web_Zarao\bin\Web_Zarao.pdb
+D:\Mini projet\Zarao\Web_Zarao\bin\Desktop_zarao.exe
+D:\Mini projet\Zarao\Web_Zarao\bin\CassiniDev4-lib.dll
+D:\Mini projet\Zarao\Web_Zarao\bin\Desktop_zarao.pdb
+D:\Mini projet\Zarao\Web_Zarao\obj\Debug\Web_Zarao.csprojResolveAssemblyReference.cache
+D:\Mini projet\Zarao\Web_Zarao\obj\Debug\Web_Zarao.dll
+D:\Mini projet\Zarao\Web_Zarao\obj\Debug\Web_Zarao.pdb

@@ -1,0 +1,16 @@
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\bin\Debug\Desktop_zarao.exe
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\bin\Debug\Desktop_zarao.pdb
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.Properties.Resources.resources
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.csproj.GenerateResource.Cache
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.exe
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.pdb
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.csprojResolveAssemblyReference.cache
+c:\users\rmt\documents\visual studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.Form1.resources
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Desktop_zarao\bin\Debug\Desktop_zarao.exe.config
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Desktop_zarao\bin\Debug\CassiniDev4-lib.dll
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.Form2.resources
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Desktop_zarao\bin\Debug\System.Data.SQLite.dll
+C:\Users\RMT\Documents\Visual Studio 2010\Projects\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.Form3.resources
+D:\Mini projet\Zarao\Desktop_zarao\bin\Debug\Desktop_zarao.exe.config
+D:\Mini projet\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.exe
+D:\Mini projet\Zarao\Desktop_zarao\obj\x86\Debug\Desktop_zarao.pdb

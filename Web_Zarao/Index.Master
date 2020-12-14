@@ -1,0 +1,376 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="Web_Zarao.Index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Zara-ao</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="icon" href="img/logo.png"/>
+    <link rel="Stylesheet" type="text/css" href="css/style.css" />
+    <link rel="Stylesheet" type="text/css" href="css/materialize.css" />
+    <link rel="Stylesheet" type="text/css" href="css/material-icons.css" />
+    <link rel="Stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="Stylesheet" type="text/css" href="css/modal.css" />
+    <link rel="Stylesheet" type="text/css" href="css/perfect-scrollbar.css" />
+    <link rel="Stylesheet" type="text/css" href="css/jquery-ui.css" />
+    <link rel="Stylesheet" type="text/css" href="css/ui.fancytree.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+     
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <!--Preloader-->
+        <div id="page-loader">
+            <center><img src="img/loader.gif" /></center>
+        </div> 
+        <div id="login">
+            <div id="inscription">
+                <div id="titre">Inscription</div>
+                <hr id="tsipika" />
+                <br />
+                  <center>
+                      <div class="input-field " id="pseudo">
+                        <input id="input_text" placeholder="Votre pseudo"   type="text" data-length="30">
+                        <label for="input_text" data-error="Trop_long" >Pseudo</label>
+                      </div>
+                  </center>
+                  <center>
+                      <div class="input-field " id="avatar">
+                        <select class="icons" id="choix-avatar" style="border-color:#ba62c6;">
+                          <option value="" disabled selected>Choisissez votre avatar</option>
+                          <option value="img/avatar1.png" data-icon="img/avatar1.png" class="left circle avatar">Avatar 1</option>
+                         <option value="img/avatar2.png" data-icon="img/avatar2.png" class="left circle avatar">Avatar 2</option>
+                         <option value="img/avatar3.png" data-icon="img/avatar3.png" class="left circle avatar">Avatar 3</option>
+                         <option value="img/avatar4.png" data-icon="img/avatar4.png" class="left circle avatar">Avatar 4</option>
+                         <option value="img/avatar5.png" data-icon="img/avatar5.png" class="left circle avatar">Avatar 5</option>
+                         <option value="img/avatar6.png" data-icon="img/avatar6.png" class="left circle avatar">Avatar 6</option>
+                         <option value="img/avatar7.png" data-icon="img/avatar7.png" class="left circle avatar">Avatar 7</option>
+                         <option value="img/avatar8.png" data-icon="img/avatar8.png" class="left circle avatar">Avatar 8</option>
+                         <option value="img/avatar9.png" data-icon="img/avatar9.png" class="left circle avatar">Avatar 9</option>
+                        </select>
+                        <label>Votre avatar</label>
+                      </div>
+                   </center>
+                   <center><a class="waves-effect waves-light btn" id="btn-ready">Commencer</a></center>
+            </div>
+        </div>
+    <!--Upload loading-->
+        <div id="progress">
+            <div id="nomFichier">sdlfjùgjdsùgsùd.mp4</div>
+            <img src="img/load_orange.gif"/>
+             <div id="pourcentage">0%</div>
+        </div>
+   
+    <div id="menu">
+        <div id="logo-content"><img id="logo" src="img/logo.png" /></div>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">home</i></div><div class="sld-menu">Accueil</div></center></a>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">photo</i></div><div class="sld-menu">Photos</div></center></a>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">movie</i></div><div class="sld-menu">Vidéos</div></center></a>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">music_note</i></div><div class="sld-menu">Musiques</div></center></a>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">description</i></div><div class="sld-menu">Documents</div></center></a>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">chat</i></div><div class="sld-menu">Chat</div></center></a>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">widgets</i></div><div class="sld-menu">Logiciels</div></center></a>
+        <a><center><div  class="bt-lien"><i class="material-icons bt-img">folder_open</i></div><div class="sld-menu">Autres</div></center></a>
+    </div>
+    <div id="user-panel">
+        <div class="chip" id="info">
+             <img src="img/avatar1.png" style="width:inherit;" alt="Contact Person"/>
+            <span id="nom-session">...........</span> 
+        </div>
+    </div>
+    <div id="modal-content">
+        <div id="modal">
+            <div id="panel">
+                <p> À propos de Zara-ao <i id="modal-close" class="material-icons">close</i> </p>
+            </div>
+            <hr />
+            <div id="corps">
+                <img src="img/logo.png" />
+                <span>Zara-ao 2.0</span><br /><p>  © 2018 Copyright Software<br />(by Miantsa)</p>
+            </div>
+        </div>
+    </div>
+    <form id="form1" runat="server">
+    <!--div id="content-page"-->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    <!--/div-->
+    </form>
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/image.js"></script>
+    <script type="text/javascript" src="js/video.js"></script>
+    <script type="text/javascript" src="js/chat.js"></script>
+    <script type="text/javascript" src="js/musique.js"></script>
+    <script type="text/javascript" src="js/document.js"></script>
+     <script type="text/javascript" src="js/logiciel.js"></script>
+     <script type="text/javascript" src="js/dossier.js"></script>
+     <script type="text/javascript" src="js/jquery.fancytree.js"></script>
+     <script type="text/javascript" src="js/jquery-ui.custom.js"></script>
+  <script type="text/javascript">
+    // $.removeCookie('avatar');
+    // $.removeCookie('pseudo');
+     // alert($.cookie('pseudo'));
+      $(document).ready(function () {//$.cookie('pseudo').length <= 0 
+       $('.tooltipped').tooltip({delay: 50});
+          $("#page-loader").css("display", "none");
+          if (typeof $.cookie('pseudo') === "undefined" || $.cookie('avatar')==null) {
+              $("#login").css("display", "block");
+             // alert("miseho");
+          }
+          else {
+             /* $("#nom-session").text($.cookie('pseudo'));
+              $("#info img").attr("src",$.cookie('avatar'));*/
+          }
+
+          $('select').material_select();
+      });
+      if (typeof $.cookie('pseudo') === "undefined" || $.cookie('avatar') == null) {
+         // $("#login").css("display", "block");
+          // alert("miseho");
+      }
+      else {
+          $("#nom-session").text($.cookie('pseudo'));
+          $("#info img").attr("src", $.cookie('avatar'));
+      }
+    new PerfectScrollbar(".scroll-milay1");
+    new PerfectScrollbar(".scroll-milay2");
+    new PerfectScrollbar(".scroll-milay3");
+    new PerfectScrollbar(".scroll-milay4");
+    new PerfectScrollbar(".scroll-milay5");
+    new PerfectScrollbar(".scroll-milay6");
+    new PerfectScrollbar(".scroll-milay7");
+   
+    //***** Modal image.aspx*****//
+     
+    //*************************//
+var acceuil = $("#default");
+var image = $("#image");
+var video = $("#video");
+var musique = $("#musique");
+var doc = $("#document");
+var chat = $("#chat");
+var logiciel = $("#logiciel");
+var dossier = $("#dossier");
+var boutonActive = {
+    'color':'white',
+    'background-color':'#2baf2b'
+};
+var boutonDesactive = {
+    'background': '#191818'
+};
+//default
+$("#menu  :nth-child(2) .bt-lien").css(boutonActive);
+$("#menu  :nth-child(2) .bt-img").css(boutonActive);
+$("#menu  :nth-child(2) .sld-menu").css(boutonActive);
+
+$("#menu a:nth-child(2)").on("click", function () {
+    acceuil.css("display", "block");//actif
+    image.css("display", "none");
+    video.css("display", "none");
+    musique.css("display", "none");
+    doc.css("display", "none");
+    chat.css("display", "none");
+    logiciel.css("display", "none");
+    dossier.css("display", "none");
+    Colorier(2);
+    Decolorier(3);
+    Decolorier(4);
+    Decolorier(5);
+    Decolorier(6);
+    Decolorier(7);
+    Decolorier(8);
+    Decolorier(9);
+});
+      
+    //image
+$("#menu a:nth-child(3),.b1").on("click", function () {
+    acceuil.css("display", "none");
+    image.css("display", "block");//actif
+    video.css("display", "none");
+    musique.css("display", "none");
+    doc.css("display", "none");
+    chat.css("display", "none");
+    logiciel.css("display", "none");
+    dossier.css("display", "none");
+    Decolorier(2);
+    Colorier(3);
+    Decolorier(4);
+    Decolorier(5);
+    Decolorier(6);
+    Decolorier(7);
+    Decolorier(8);
+    Decolorier(9);
+});
+    //video
+    $("#menu a:nth-child(4),.b2").on("click", function () {
+        acceuil.css("display", "none");
+        image.css("display", "none");
+        video.css("display", "block");//actif
+        musique.css("display", "none");
+        doc.css("display", "none");
+        chat.css("display", "none");
+        logiciel.css("display", "none");
+        dossier.css("display", "none");
+        Decolorier(2);
+        Decolorier(3);
+        Colorier(4);
+        Decolorier(5);
+        Decolorier(6);
+        Decolorier(7);
+        Decolorier(8);
+        Decolorier(9);
+    });
+    //musique
+    $("#menu a:nth-child(5),.b3").on("click", function () {
+        acceuil.css("display", "none");
+        image.css("display", "none");
+        video.css("display", "none");
+        musique.css("display", "block");//actif
+        doc.css("display", "none");
+        chat.css("display", "none");
+        logiciel.css("display", "none");
+        dossier.css("display", "none");
+        Decolorier(2);
+        Decolorier(3);
+        Decolorier(4);
+        Colorier(5);
+        Decolorier(6);
+        Decolorier(7);
+        Decolorier(8);
+        Decolorier(9);
+    });
+    //document
+    $("#menu a:nth-child(6),.b4").on("click", function () {
+        acceuil.css("display", "none");
+        image.css("display", "none");
+        video.css("display", "none");
+        musique.css("display", "none");
+        doc.css("display", "block");//actif
+        chat.css("display", "none");
+        logiciel.css("display", "none");
+        dossier.css("display", "none"); ;
+        Decolorier(2);
+        Decolorier(3);
+        Decolorier(4);
+        Decolorier(5);
+        Colorier(6);
+        Decolorier(7);
+        Decolorier(8);
+        Decolorier(9);
+    });
+    //chat
+    $("#menu a:nth-child(7),.b5").on("click", function () {
+        acceuil.css("display", "none");
+        image.css("display", "none");
+        video.css("display", "none");
+        musique.css("display", "none");
+        doc.css("display", "none");
+        chat.css("display", "block");//actif
+        logiciel.css("display", "none");
+        dossier.css("display", "none");
+        Decolorier(2);
+        Decolorier(3);
+        Decolorier(4);
+        Decolorier(5);
+        Decolorier(6);
+        Colorier(7);
+        Decolorier(8);
+        Decolorier(9);
+       // $("#fin").click();
+    });
+    //logiciel
+    $("#menu a:nth-child(8),.b6").on("click", function () {
+        acceuil.css("display", "none");
+        image.css("display", "none");
+        video.css("display", "none");
+        musique.css("display", "none");
+        doc.css("display", "none");
+        chat.css("display", "none");
+        logiciel.css("display", "block");//actif
+        dossier.css("display", "none");
+        Decolorier(2);
+        Decolorier(3);
+        Decolorier(4);
+        Decolorier(5);
+        Decolorier(6);
+        Decolorier(7);
+        Colorier(8);
+        Decolorier(9);
+    });
+    //dossier
+    $("#menu a:nth-child(9),.b7").on("click", function () {
+        acceuil.css("display", "none");
+        image.css("display", "none");
+        video.css("display", "none");
+        musique.css("display", "none");
+        doc.css("display", "none");
+        chat.css("display", "none");
+        logiciel.css("display", "none");
+        dossier.css("display", "block"); //actif
+        Decolorier(2);
+        Decolorier(3);
+        Decolorier(4);
+        Decolorier(5);
+        Decolorier(6);
+        Decolorier(7);
+        Decolorier(8);
+        Colorier(9);
+    });
+    function Colorier(i) {
+        $("#menu  :nth-child(" + i + ") .bt-lien").css(boutonActive);
+        $("#menu  :nth-child(" + i + ") .bt-img").css(boutonActive);
+        $("#menu  :nth-child(" + i + ") .sld-menu").css(boutonActive);
+    } 
+    function Decolorier(i) {
+        $("#menu  :nth-child(" + i + ") .bt-lien").css(boutonDesactive);
+        $("#menu  :nth-child(" + i + ") .bt-img").css("color", "#969696");
+        $("#menu  :nth-child(" + i + ") .bt-img").css(boutonDesactive);
+        $("#menu  :nth-child(" + i + ") .sld-menu").css(boutonDesactive);
+    }
+    $("#btn-ready").on("click", function () {
+        var pseudo = $("#input_text").val();
+        var avatar = $("#choix-avatar").val();
+       // alert(avatar);
+        
+        if (pseudo.length <= 0 || pseudo.length > 30||avatar==null) {
+            alert("Erreur pseudo ou avatar");
+        }
+        else {
+          /*  $.cookie('pseudo', pseudo);
+            $.cookie('avatar', avatar);
+            $("#login").css("display", "none");
+            $("#nom-session").text($.cookie('pseudo'));
+            $("#info img").attr("src", $.cookie('avatar'));*/
+            $.ajax({
+                type: "POST",
+                url: "default.aspx/Login",
+                data:"{'pseudo':'"+pseudo+"'}",
+                contentType: "application/json;charset=utf-8",
+                dataType: 'json',
+                success: function (data) {
+                    if(data.d=="True"){
+                        $.cookie('pseudo', pseudo,{expires:365});
+                        $.cookie('avatar', avatar,{expires:365});
+                        $("#login").css("display", "none");
+                        $("#nom-session").text($.cookie('pseudo'));
+                        $("#info img").attr("src", $.cookie('avatar'));
+                    }
+                    else{
+                         alert("Pseudo déja utilisé");
+                    }
+                },
+            });
+        }
+        //alert($.cookie('pseudo'));
+       
+    });
+  </script>
+   
+</body>
+</html>
